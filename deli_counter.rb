@@ -17,7 +17,7 @@ def line(turn)
 end
 
 def now_serving(array)
-  if array.empty?
+  if array==0
     puts "There is nobody waiting to be served!"
   else
     puts "currently serving #{array[0]}."
