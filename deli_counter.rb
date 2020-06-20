@@ -10,9 +10,8 @@ end
 
 def line(katz_dely)
   if array.length == 0
-    
-  "The line is curently empty"
-  
+    puts"The line is curently empty"
+  elsif array.length ==1
 end
 
 
