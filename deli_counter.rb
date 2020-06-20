@@ -17,7 +17,7 @@ def line(turn)
 end
 
 def now_serving(katz_dely)
-  if Array.empty?
+  if array.empty?
     puts "The line is empty."
   else
     puts "currently serving #{array[0]}."
