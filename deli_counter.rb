@@ -11,7 +11,7 @@ end
 def line(katz_dely)
   if array.length == 0
     puts"The line is curently empty"
-  elsif array.length ==1
+  elsif array.length == 1
   
 end
 
