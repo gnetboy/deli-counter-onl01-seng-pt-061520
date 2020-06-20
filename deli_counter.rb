@@ -2,12 +2,12 @@
 
 katz_deli =[]
 
-def line(x)
+def line(array)
   person_line= []
-  if x.length ==0
+  if array.length ==0
     puts"The line is curretly empty."
-  else 
-    x.
+  elsif
+      array.each.with.index(1) do |name,index|
   
   end
 end
