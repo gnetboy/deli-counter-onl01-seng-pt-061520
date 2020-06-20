@@ -12,7 +12,7 @@ def line(turn)
       turn.each.with.index do |name,index|
       person_line.push("#{index}.#{name}")
    end
-    puts "The line is currently : #{line_array.join(" ")}"
+    puts "The line is currently : #{person_line.join(" ")}"
   end
 end
 
