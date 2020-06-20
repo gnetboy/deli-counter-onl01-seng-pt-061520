@@ -9,6 +9,7 @@ def take_a_number(array,name)
 end
 
 def line(katz_dely)
+  "The line is curently empty"
   
 end
 
