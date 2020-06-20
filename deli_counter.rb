@@ -18,7 +18,7 @@ end
 
 def now_serving(katz_dely)
   if Array.length==0
-    puts "The line is currently empty."
+    puts "The line is empty."
   else
     puts "currently serving #{array[0]}."
     array.shift
