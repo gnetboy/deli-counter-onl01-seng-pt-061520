@@ -12,7 +12,7 @@ def line(array)
 end
 
 def take_a_number(array,name)
-  katz_deli.push(name)
+  arry.push(name)
   puts "Welcome, #{name}. You are number #{index+1} in line."}
 end
 
