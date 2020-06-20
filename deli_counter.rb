@@ -11,11 +11,9 @@ def line(array)
 
 end
 
-
-
 def take_a_number(array,name)
-  katz_dely.each_with_index {|item,index| katz_dely << "Welcome, #{name}. You are number #{index+1} in line."}
-
+  katz_deli.push(name)
+  puts "Welcome, #{name}. You are number #{index+1} in line."}
 end
 
 def now_serving(katz_dely)
