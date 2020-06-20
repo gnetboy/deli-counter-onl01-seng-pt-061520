@@ -4,7 +4,7 @@ katz_deli =[]
 
 
 def take_a_number(array,name)
-  katz_dely.each_with_index {|name,index|}  puts "Welcome, #{item}. You are number #{index+1} in line."}
+  katz_dely.each_with_index do {|name,index|}  puts "Welcome, #{item}. You are number #{index+1} in line."}
 
 end
 
