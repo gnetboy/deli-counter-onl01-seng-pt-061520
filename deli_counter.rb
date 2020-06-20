@@ -3,8 +3,8 @@ def line(array)
    if array.length ==0
       puts"The line is currently empty."
   else
-      array.each.with.index  |name,index|
-      person_line.push("#{index}.#{name}")
+      array.each.with.index { |name,index|
+      person_line.push("#{index}.#{name}")}
   end
     puts "The line is currently : #{line_array.join(" ")}"
  end
