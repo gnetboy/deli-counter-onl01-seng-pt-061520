@@ -5,9 +5,9 @@ def line(array)
   else
       array.each.with.index(1) do{ |name,index|
       person_line.push("#{index}.#{name}")}
-  end
+   end
     puts "The line is currently : #{line_array.join(" ")}"
- end
+  end
 
 end
 
