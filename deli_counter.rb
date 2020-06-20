@@ -21,7 +21,11 @@ def take_a_number(array,name)
 end
 
 def now_serving(katz_dely)
-  
+  if array.empty?
+    puts "The line is currently empty."
+  else
+    puts "currently serving #{array[0]}."
+  end
 end
 
 
