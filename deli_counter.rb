@@ -1,3 +1,9 @@
+
+def take_a_number(array,name)
+ array.push(name)
+ puts "Welcome, #{name}. You are number #{index+1} in line."}
+end
+
 def line(turn)
    person_line = []
    if turn.length ==0
@@ -8,11 +14,6 @@ def line(turn)
    end
     puts "The line is currently : #{line_array.join(" ")}"
   end
-end
-
-def take_a_number(array,name)
- array.push(name)
- puts "Welcome, #{name}. You are number #{index+1} in line."}
 end
 
 def now_serving(katz_dely)
