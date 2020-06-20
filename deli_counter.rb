@@ -16,7 +16,7 @@ def line(turn)
   end
 end
 
-def now_serving(katz_dely)
+def now_serving(array)
   if array.empty?
     puts "The line is empty."
   else
