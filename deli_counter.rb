@@ -9,7 +9,7 @@ def line(turn)
    if turn.length ==0
       puts"The line is currently empty."
   else turn.length ==1
-      turn.each.with.index(1) do |name,index|
+      turn.each.with.index do |name,index|
       person_line.push("#{index}.#{name}")
    end
     puts "The line is currently : #{line_array.join(" ")}"
