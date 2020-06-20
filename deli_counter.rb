@@ -25,6 +25,4 @@ def now_serving(katz_dely)
     puts "currently serving #{array[0]}."
     array.shift
   end
-
-
-  
+end
