@@ -1,9 +1,7 @@
-# Write your code here.
 
-katz_deli =[]
 
 def line(array)
-  person_line= []
+  person_line = []
   if array.length ==0
     puts"The line is currently empty."
   elsif
