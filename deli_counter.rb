@@ -5,7 +5,7 @@ katz_deli =[]
 
 def take_a_number(katz_dely,name)
   katz_dely =[]
-  katz_dely.each_with_index {|item,index|} katz_dely << puts "Welcome, #{item}. You are number #{index+1} in line."}
+  katz_dely.each_with_index {|item,index|} katz_dely << puts "Welcome, #{item}. You are number #{index+1} in line."}}
 end
 
 def line(katz_dely)
